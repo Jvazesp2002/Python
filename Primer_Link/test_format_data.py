@@ -25,5 +25,4 @@ def test_format_data_for_display(example_people_data):
 def test_format_data_for_excel(example_people_data):
     assert format_data_for_excel(example_people_data) == """given,family,title
 Jorge,Vazquez,Senior Software Engineer
-Pedro,Perez,Project Manager
-"""
+Pedro,Perez,Project Manager"""
